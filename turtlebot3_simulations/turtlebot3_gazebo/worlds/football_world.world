@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="football_world">
+    <!-- Include terenul RoboCup -->
+    <include>
+      <uri>model://robocup09_spl_field</uri>
+      <pose>0 0 0 0 0 0</pose> <!-- Poziția terenului -->
+    </include>
+
+    <!-- Include TurtleBot3 -->
+    <include>
+      <uri>model://turtlebot3_waffle</uri>
+      <pose>0 0 0.2 0 0 0</pose> <!-- Poziția inițială a robotului -->
+    </include>
+
+    <!-- Iluminare -->
+    <light type="directional" name="sun">
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <direction>-0.5 0.5 -1</direction>
+    </light>
+  </world>
+</sdf>
