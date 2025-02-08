@@ -26,4 +26,4 @@ This project implements an **autonomous soccer-playing TurtleBot3** using **ROS2
 - ROS2 Documentation
 - TurtleBot3 GitHub
   
-## 📌 Developed by: Pop Darius
+## 📌 Developed by: Pop Darius, Student
